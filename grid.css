@@ -31,7 +31,7 @@ main{
 .a{
   background-color: #eb5020;
   grid-area: a;
-  height: 100px;
+  height: 200px;
 }
 
 .b {
@@ -49,14 +49,46 @@ main{
 .d {
   background-color: #01aefd;
   grid-area: d;
-  height: 45px;
+  height: 90px;
 }
 .e {
   background-color: #01aefd;
   grid-area: e;
-  height: 45px;
+  height: 90px;
 }
 
 footer a{
   text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .a {
+      background-color: #eb5020;
+      grid-area: a;
+      height: 100px;
+    }
+  
+    .b {
+      background-color: #ffa401;
+      grid-area: b;
+      width: 100%;
+    }
+  
+    .c {
+      background-color: #05aa42;
+      grid-area: c;
+      width: 100%;
+    }
+  
+    .d {
+      background-color: #01aefd;
+      grid-area: d;
+      height: 45px;
+    }
+  
+    .e {
+      background-color: #01aefd;
+      grid-area: e;
+      height: 45px;
+    }
 }
